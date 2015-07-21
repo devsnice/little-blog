@@ -1,0 +1,23 @@
+.header {
+  margin-bottom: 10px;
+
+
+  &-logotype {
+    text-align: center;
+
+    h1{
+      padding-top: 30px;
+      font-size: 30px;
+      line-height: 70px;
+      font-family: 'Roboto Slab', serif;
+      font-weight: 700;
+    }
+
+    p {
+      width: 500px;
+      margin: auto;
+      letter-spacing: 0.1px;
+      font-weight: 300;
+    }
+  }
+}

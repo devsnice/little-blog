@@ -1,0 +1,20 @@
+html,body {
+  height: 100%;
+}
+
+.main {
+  z-index: 1;
+  line-height: 21px;
+  font-size: 14px;
+
+  .wrapper {
+    background: #fff;
+    border-top: 5px solid rgb(234, 247, 255)
+  }
+
+  &-articles {
+    width: 100%;
+    float: left;
+    padding: 15px 10px;
+  }
+}

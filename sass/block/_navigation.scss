@@ -1,0 +1,23 @@
+.category {
+  border-top: 1px solid #d3d3d3;
+  &__item {
+    font-family: 'Roboto Slab', serif;
+    line-height: 50px;
+    text-transform: uppercase;
+    height: 50px;
+    font-size: 18px;
+    margin: 0 15px;
+    display: inline-block;
+    border-top: 3px solid rgba(#000, 0);
+    transtion: 0.3s ease;
+
+    &:hover {
+      border-color: #000000;
+    }
+  }
+
+  &_main {
+    text-align: center;
+    margin: 20px 0;
+  }
+}

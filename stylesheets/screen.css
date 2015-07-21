@@ -1,0 +1,343 @@
+/* line 5, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 2, ../sass/extend/_excess.scss */
+html, body {
+  width: 100%;
+}
+
+/* line 6, ../sass/extend/_excess.scss */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 14, ../sass/extend/_excess.scss */
+.wrapper {
+  width: 1030px;
+  margin: auto;
+}
+
+/* line 19, ../sass/extend/_excess.scss */
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* line 24, ../sass/extend/_excess.scss */
+.clearfix {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+}
+/* line 27, ../sass/extend/_excess.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+/* line 32, ../sass/extend/_excess.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 39, ../sass/extend/_excess.scss */
+.img-left {
+  float: left;
+  margin: 0 25px 25px 0;
+}
+
+/* line 47, ../sass/extend/_excess.scss */
+.button {
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s ease;
+  display: block;
+}
+
+/* line 55, ../sass/extend/_excess.scss */
+.i-underline {
+  text-decoration: underline;
+}
+
+/* line 59, ../sass/extend/_excess.scss */
+.i-bold {
+  font-weight: 700;
+}
+
+/* line 2, ../sass/extend/_icons.scss */
+.icon {
+  position: absolute;
+  content: "";
+}
+
+/* line 1, ../sass/block/_header.scss */
+.header {
+  margin-bottom: 10px;
+}
+/* line 5, ../sass/block/_header.scss */
+.header-logotype {
+  text-align: center;
+}
+/* line 8, ../sass/block/_header.scss */
+.header-logotype h1 {
+  padding-top: 30px;
+  font-size: 30px;
+  line-height: 70px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+}
+/* line 16, ../sass/block/_header.scss */
+.header-logotype p {
+  width: 500px;
+  margin: auto;
+  letter-spacing: 0.1px;
+  font-weight: 300;
+}
+
+/* line 1, ../sass/block/_navigation.scss */
+.category {
+  border-top: 1px solid #d3d3d3;
+}
+/* line 3, ../sass/block/_navigation.scss */
+.category__item {
+  font-family: 'Roboto Slab', serif;
+  line-height: 50px;
+  text-transform: uppercase;
+  height: 50px;
+  font-size: 18px;
+  margin: 0 15px;
+  display: inline-block;
+  border-top: 3px solid transparent;
+  transtion: 0.3s ease;
+}
+/* line 14, ../sass/block/_navigation.scss */
+.category__item:hover {
+  border-color: #000000;
+}
+/* line 19, ../sass/block/_navigation.scss */
+.category_main {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* line 1, ../sass/block/_main.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 5, ../sass/block/_main.scss */
+.main {
+  z-index: 1;
+  line-height: 21px;
+  font-size: 14px;
+}
+/* line 10, ../sass/block/_main.scss */
+.main .wrapper {
+  background: #fff;
+  border-top: 5px solid #eaf7ff;
+}
+/* line 15, ../sass/block/_main.scss */
+.main-articles {
+  width: 100%;
+  float: left;
+  padding: 15px 10px;
+}
+
+/* line 1, ../sass/block/_article.scss */
+.article {
+  font-weight: 400;
+  transition: 0.4s ease;
+  padding: 15px;
+}
+/* line 6, ../sass/block/_article.scss */
+.article p {
+  padding-top: 15px;
+  letter-spacing: 0.2px;
+  font-size: 16px;
+}
+/* line 16, ../sass/block/_article.scss */
+.article-footer {
+  padding: 15px 0;
+  text-align: right;
+}
+/* line 21, ../sass/block/_article.scss */
+.article__title {
+  font-size: 26px;
+  line-height: 32px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  float: left;
+  width: 400px;
+}
+/* line 29, ../sass/block/_article.scss */
+.article__title a {
+  border-bottom: 2px solid #000;
+}
+/* line 33, ../sass/block/_article.scss */
+.article__title a:hover {
+  border-color: transparent;
+}
+/* line 39, ../sass/block/_article.scss */
+.article__categories {
+  padding-top: 5px;
+  float: right;
+}
+/* line 43, ../sass/block/_article.scss */
+.article__categories a {
+  display: inline-block;
+  transition: 0.4s ease;
+  padding: 5px 15px;
+  margin-left: 6px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+/* line 54, ../sass/block/_article.scss */
+.article__categories a:hover {
+  background: none;
+  color: #000;
+}
+/* line 61, ../sass/block/_article.scss */
+.article_main {
+  border-bottom: 1px solid #d3d3d3;
+}
+/* line 64, ../sass/block/_article.scss */
+.article_main:last-child {
+  border-bottom: none;
+}
+/* line 68, ../sass/block/_article.scss */
+.article_main:hover {
+  background: #ebebeb;
+}
+/* line 72, ../sass/block/_article.scss */
+.article_main_half {
+  width: 49.8%;
+  display: inline-block;
+  border-bottom: none;
+}
+/* line 77, ../sass/block/_article.scss */
+.article_main_half:nth-child(2n) {
+  background: #eaf7ff;
+}
+/* line 81, ../sass/block/_article.scss */
+.article_main_half:nth-child(2n+1) {
+  background: #eaeaea;
+}
+
+/* line 1, ../sass/block/_addform.scss */
+.form-add {
+  width: 100%;
+  padding: 30px;
+}
+/* line 5, ../sass/block/_addform.scss */
+.form-add__title {
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* line 13, ../sass/block/_addform.scss */
+.form-add__label {
+  display: block;
+}
+/* line 21, ../sass/block/_addform.scss */
+.form-add__input, .form-add__textarea {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  width: 90%;
+  margin: 15px auto;
+  display: block;
+  padding: 0 10px;
+  border-radius: 10px;
+  border: 3px solid #d3d3d3;
+}
+/* line 32, ../sass/block/_addform.scss */
+.form-add__input {
+  height: 45px;
+  line-height: 45px;
+}
+/* line 36, ../sass/block/_addform.scss */
+.form-add__input_submit {
+  width: 200px;
+  background: #d3d3d3;
+  cursor: pointer;
+}
+/* line 43, ../sass/block/_addform.scss */
+.form-add__textarea {
+  height: 250px;
+  resize: none;
+  padding: 10px;
+}
+
+/* line 5, ../sass/screen.scss */
+body, html {
+  font-family: 'Open Sans', sans-serif;
+  background: #ebebeb;
+}
