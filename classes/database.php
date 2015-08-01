@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__ . "/../class/article.php";
+require __DIR__ . "/../classes/article.php";
 
 // Class form work with DataBase
 
