@@ -1,6 +1,6 @@
 <?php
 
-class modelArticle
+class articleModels
 {
     protected $db;
     protected $dbTable = 'article';

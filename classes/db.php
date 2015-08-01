@@ -1,7 +1,5 @@
 <?php
 
-require __DIR__ . "/../classes/article.php";
-
 // Class form work with DataBase
 
 class db
@@ -29,7 +27,7 @@ class db
     }
 
     // Select data from db
-    function select($query) {
+    function select($query, $typeObject) {
         $result = [];
 
         $answer = mysql_query($query);
