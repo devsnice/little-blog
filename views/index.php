@@ -11,8 +11,6 @@
             <?php endforeach; ?>
         </section>
 
-        <!-- Navigation by category -->
-
     </div>
 </main>
 

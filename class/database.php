@@ -4,21 +4,20 @@ require __DIR__ . "/../class/article.php";
 
 // Class form work with DataBase
 
-class db {
+class db
+{
     private $db = "blog";
     private $login  = "root";
     private $pass   = null;
-    private $typeObject = null;
     private $link;
 
     // Connect to db
-    function __construct($typeObject) {
-        $this->typeObject = $typeObject;
+    function __construct() {
         mysql_connect("localhost", $this->login, $this->pass);
         mysql_select_db($this->db);
     }
 
-    // Disconnect fron db
+    // Disconnect from db
     function disconnect() {
         mysql_close($this->link);
     }
@@ -35,7 +34,7 @@ class db {
 
         $answer = mysql_query($query);
 
-        while($res = mysql_fetch_object($answer, $this->typeObject)) {
+        while($res = mysql_fetch_object($answer, $typeObject)) {
             $result[] = $res;
         }
 

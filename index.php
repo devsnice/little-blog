@@ -3,11 +3,11 @@
     require __DIR__ . "/models/article.php";
 
     // Create to connect for db
-    $db = new db("articleShort");
+    $db = new db();
     $modelArticle = new modelArticle($db);
 
     // Get all article from DataBase
-    $articles = $modelArticle->getAllArticle();
+    $articles = $modelArticle->getAllArticle("articleShort");
 
     // View articles
     include __DIR__ . "/views/index.php";

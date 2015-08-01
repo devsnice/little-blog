@@ -9,20 +9,20 @@ class modelArticle
         $this->db = $db;
     }
 
-public function getAllArticle() {
-    $result = [];
-    $query = "SELECT * FROM " . $this->dbTable;
+    public function getAllArticle($typeObject = "articleShort") {
+        $result = [];
+        $query = "SELECT * FROM " . $this->dbTable;
 
-    $result = $this->db->select($query);
+        $result = $this->db->select($query, $typeObject);
 
-    return $result;
-}
+        return $result;
+    }
 
-public function getArticle($id) {
-    $result = [];
-    $query = "SELECT * FROM " . $this->dbTable . "WHERE id=" . $id;
+    public function getArticle($id) {
+        $result = [];
+        $query = "SELECT * FROM " . $this->dbTable . "WHERE id=" . $id;
 
-    return result;
-}
+        return result;
+    }
 }
 
