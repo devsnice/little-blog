@@ -13,7 +13,7 @@
 <header class="header" role="header">
     <div class="wrapper">
         <div class="header-logotype">
-            <h1><a href="index.php">Little Blog</a></h1>
+            <h1><a href="/">Little Blog</a></h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dolorum eius explicabo pariatur recusandae, vero voluptates!</p>
         </div>
     </div>
