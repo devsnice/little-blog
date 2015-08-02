@@ -1,5 +1,5 @@
-<?php include '/blocks/header.php'; ?>
-<?php include '/blocks/navigation.php'; ?>
+<?php include '/blocks/blog/header.php'; ?>
+<?php include '/blocks/blog/navigation.php'; ?>
 
 <main class="main" role="main">
     <div class="wrapper clearfix">
@@ -14,7 +14,4 @@
     </div>
 </main>
 
-<?php include 'blocks/footer.php'; ?>
-
-</body>
-</html>
+<?php include 'blocks/blog/footer.php'; ?>

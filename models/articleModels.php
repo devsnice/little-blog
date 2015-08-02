@@ -5,8 +5,8 @@ class articleModels
     protected $db;
     protected $dbTable = 'article';
 
-    function __construct($db) {
-        $this->db = $db;
+    function __construct() {
+        $this->db = new db();
     }
 
     public function getAllArticle($typeObject = "articleShort") {
@@ -23,6 +23,13 @@ class articleModels
         $query = "SELECT * FROM " . $this->dbTable . "WHERE id=" . $id;
 
         return result;
+    }
+
+    public function addArticle($article) {
+        $query = "INSERT INTO `article`(`user`, `title`, `category`, `body`, `data`)
+                  VALUES ('admin','" . $article->title . "','" . $article->category. "','" . $article->body . "','" . $article->date . "')";
+
+        return($this->db->insert($query));
     }
 }
 
