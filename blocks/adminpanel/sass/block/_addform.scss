@@ -1,0 +1,48 @@
+.form-add {
+  width: 100%;
+  padding: 30px;
+
+  &__title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  &__label {
+    display: block;
+
+    span {
+
+    }
+  }
+
+  &__input, &__textarea {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    width: 90%;
+    margin: 15px auto;
+    display: block;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 3px solid #d3d3d3;
+  }
+
+  &__input {
+    height: 45px;
+    line-height: 45px;
+
+    &_submit {
+      width: 200px;
+      background: #d3d3d3;
+      cursor: pointer;
+    }
+  }
+
+  &__textarea {
+    height: 250px;
+    resize: none;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,237 @@
+/* line 5, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 2, ../sass/extend/_excess.scss */
+html, body {
+  width: 100%;
+}
+
+/* line 6, ../sass/extend/_excess.scss */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 14, ../sass/extend/_excess.scss */
+.wrapper {
+  width: 1030px;
+  margin: auto;
+}
+
+/* line 19, ../sass/extend/_excess.scss */
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* line 24, ../sass/extend/_excess.scss */
+.clearfix {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+}
+/* line 27, ../sass/extend/_excess.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+/* line 32, ../sass/extend/_excess.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 39, ../sass/extend/_excess.scss */
+.img-left {
+  float: left;
+  margin: 0 25px 25px 0;
+}
+
+/* line 47, ../sass/extend/_excess.scss */
+.button {
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s ease;
+  display: block;
+}
+
+/* line 55, ../sass/extend/_excess.scss */
+.i-underline {
+  text-decoration: underline;
+}
+
+/* line 59, ../sass/extend/_excess.scss */
+.i-bold {
+  font-weight: 700;
+}
+
+/* line 2, ../sass/extend/_icons.scss */
+.icon {
+  position: absolute;
+  content: "";
+}
+
+/* line 1, ../sass/block/_main.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 5, ../sass/block/_main.scss */
+.main {
+  line-height: 21px;
+  font-size: 14px;
+  height: 100%;
+}
+
+/* line 11, ../sass/block/_main.scss */
+.ctrl {
+  width: 20%;
+  height: 100%;
+  float: left;
+  background: #444;
+  color: #fff;
+  padding: 30px 10px;
+}
+/* line 19, ../sass/block/_main.scss */
+.ctrl .logotype {
+  font-size: 28px;
+  padding-left: 15px;
+}
+/* line 24, ../sass/block/_main.scss */
+.ctrl-navigation {
+  margin: 50px;
+}
+/* line 27, ../sass/block/_main.scss */
+.ctrl-navigation__item {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 44px;
+}
+/* line 34, ../sass/block/_main.scss */
+.ctrl-navigation__item i {
+  margin-right: 8px;
+  width: 19px;
+}
+
+/* line 42, ../sass/block/_main.scss */
+.view {
+  width: 80%;
+  float: left;
+  height: 100%;
+}
+
+/* line 1, ../sass/block/_addform.scss */
+.form-add {
+  width: 100%;
+  padding: 30px;
+}
+/* line 5, ../sass/block/_addform.scss */
+.form-add__title {
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* line 13, ../sass/block/_addform.scss */
+.form-add__label {
+  display: block;
+}
+/* line 21, ../sass/block/_addform.scss */
+.form-add__input, .form-add__textarea {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  width: 90%;
+  margin: 15px auto;
+  display: block;
+  padding: 0 10px;
+  border-radius: 10px;
+  border: 3px solid #d3d3d3;
+}
+/* line 32, ../sass/block/_addform.scss */
+.form-add__input {
+  height: 45px;
+  line-height: 45px;
+}
+/* line 36, ../sass/block/_addform.scss */
+.form-add__input_submit {
+  width: 200px;
+  background: #d3d3d3;
+  cursor: pointer;
+}
+/* line 43, ../sass/block/_addform.scss */
+.form-add__textarea {
+  height: 250px;
+  resize: none;
+  padding: 10px;
+}
+
+/* line 5, ../sass/screen.scss */
+body, html {
+  font-family: 'Open Sans', sans-serif;
+}

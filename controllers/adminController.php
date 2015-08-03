@@ -5,7 +5,7 @@ class adminController
         include __DIR__ . "/../views/adminViews.php";
     }
 
-    public function add() {
+    public function actionAdd() {
         $error = [];
 
         if(!empty($_POST["article-add"])) {
@@ -43,11 +43,15 @@ class adminController
         }
     }
 
-    public function delete() {
+    public function actionDelete() {
         echo "Delete article on site";
     }
 
-    public function update() {
+    public function actionUpdate() {
         echo "Update article on site";
+    }
+
+    public function actionSetting() {
+
     }
 }

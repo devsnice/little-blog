@@ -1,0 +1,61 @@
+// Mainly
+html, body {
+  width: 100%;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1030px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.clearfix {
+  	zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+
+      &:before, &:after {
+  		content: "";
+    	    display: table;
+      }
+
+      &:after {
+  		clear: both;
+    	}
+ }
+
+ // Style for images
+ .img {
+   &-left {
+     float: left;
+     margin: 0 25px 25px 0;
+   }
+ }
+
+
+//Buttons
+.button {
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s ease;
+  display: block;
+}
+
+// Decoration for site's element
+.i-underline {
+  text-decoration: underline;
+}
+
+.i-bold {
+  font-weight: 700;
+}

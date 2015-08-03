@@ -1,0 +1,46 @@
+html,body {
+  height: 100%;
+}
+
+.main {
+  line-height: 21px;
+  font-size: 14px;
+  height: 100%;
+}
+
+.ctrl {
+  width: 20%;
+  height: 100%;
+  float: left;
+  background: #444;
+  color: #fff;
+  padding: 30px 10px;
+
+    .logotype {
+      font-size: 28px;
+      padding-left: 15px;
+    }
+
+    &-navigation {
+      margin: 50px;
+
+      &__item {
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 44px;
+
+        i {
+          margin-right: 8px;
+          width: 19px;
+        }
+      }
+    }
+}
+
+.view  {
+  width: 80%;
+  float: left;
+  height: 100%;
+}

@@ -1,35 +1,39 @@
 <?php include '/blocks/adminpanel/header.php'; ?>
 
-<main class="main" role="main">
-    <div class="wrapper clearfix">
-
         <main class="main" role="main">
-            <div class="wrapper">
-                <form action="add" method="POST" class="form-add">
-                    <h3 class="form-add__title">
-                        Add article on site
-                    </h3>
 
-                    <label class="form-add__label">
+                <aside class="ctrl">
 
-                        <input type="text" placeholder="Введите название" name="article-title" class="form-add__input input">
-                    </label>
+                    <ul class="ctrl-navigation">
+                        <li class="ctrl-navigation__item">
+                            <i class="fa fa-tachometer"></i>
+                            Dashboard
+                        </li>
+                        <li class="ctrl-navigation__item">
+                            <i class="fa fa-plus"></i>
+                            Add
+                        </li>
+                        <li class="ctrl-navigation__item">
+                            <i class="fa fa-file-text-o"></i>
+                            Articles
+                        </li>
+                        <li class="ctrl-navigation__item">
+                            <i class="fa fa-commenting-o"></i>
+                            Comments
+                        </li>
+                        <li class="ctrl-navigation__item">
+                            <i class="fa fa-cogs"></i>
+                            Setting
+                        </li>
+                    </ul>
+                </aside>
 
-                    <label class="form-add__label">
+                <section class="view">
 
-                        <input type="text" placeholder="Название категорию" name="article-category" class="form-add__input input">
-                    </label>
 
-                    <label class="form-add__label">
+                </section>
 
-                        <textarea name="article-body" class="form-add__textarea" placeholder="Текст статьи"></textarea>
-                    </label>
-
-                    <input type="submit" name="article-add" class="form-add__input form-add__input_submit button">
-
-                </form>
-            </div>
         </main>
 
-    </div>
-</main>
+    </body>
+</html>
