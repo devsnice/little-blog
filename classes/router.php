@@ -11,7 +11,7 @@ class router
 
     public function path() {
         $result = ["controller"=>"article", // value for default
-                   "action"=>"actionAll",
+                   "action"=>"all",
                    "param"=>""];
 
 

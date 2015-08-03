@@ -3,8 +3,6 @@
 // Autolaod classes in throughout program
 
 function __autoload($className) {
-
-
     if(file_exists( __DIR__ . '/controllers/' . $className .  ".php")) {
         require_once __DIR__ . '/controllers/'  . $className .  ".php";
     }
@@ -14,4 +12,5 @@ function __autoload($className) {
     elseif(file_exists( __DIR__ . '/classes/'  . $className .  ".php")) {
         require_once __DIR__ . '/classes/'  . $className .  ".php";
     }
+
 };
