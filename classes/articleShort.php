@@ -4,14 +4,14 @@ class articleShort extends article
 {
     public function view() {
         echo "
-             <article classes='article article_main'>
-                <header classes='article-header clearfix'>
-                    <h2 classes='article__title'>
-                        <a href='/id?=" . $this->id . "'>" . $this->title . "</a>
+             <article class='article article_main'>
+                <header class='article-header clearfix'>
+                    <h2 class='article__title'>
+                        <a href='/article/full/" . $this->id . "'>" . $this->title . "</a>
                     </h2>
 
-                    <div classes='article__categories'>
-                        <a href='/category?=" . $this->category . "'>" . $this->category . "</a>
+                    <div class='article__categories'>
+                        <a href='/article/category/" . $this->category . "'>" . $this->category . "</a>
                     </div>
              </header>
 
@@ -21,8 +21,8 @@ class articleShort extends article
             . "
               </div>
 
-              <footer classes='article-footer'>
-                    <span classes='i-bold'>Add: </span> $this->user
+              <footer class='article-footer'>
+                    <span class='i-bold'>Add: </span> $this->user
               </footer>
             </article>
 
